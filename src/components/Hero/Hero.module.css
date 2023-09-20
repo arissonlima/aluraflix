@@ -1,0 +1,34 @@
+.hero {
+  margin-top: -100px;
+  margin-bottom: 800px;
+  background-image: url(../../assets/bg_hero.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 868px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  padding: 40px;
+  z-index: 0;
+  position: absolute;
+}
+
+.info h2 {
+  margin-top: 40px;
+  color: var(--gray-3);
+}
+
+.hero .info p {
+  margin-top: 10px;
+  max-width: 60ch;
+  color: var(--gray-3);
+}
+
+.hero .videoPreview {
+  width: 646px;
+  height: 333px;
+}

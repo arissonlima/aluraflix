@@ -1,0 +1,43 @@
+.container {
+  padding: 20px 40px;
+  max-width: 1440px;
+  height: 100%;
+  z-index: 1;
+}
+
+.category {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  gap: 20px;
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.category h3 {
+  margin-left: -16px;
+  padding: 1rem;
+  background-color: var(--course-3);
+  color: var(--gray-3);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.category span {
+  color: var(--gray-3);
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.noshow {
+  display: none;
+}

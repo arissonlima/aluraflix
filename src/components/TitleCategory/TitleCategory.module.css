@@ -1,0 +1,12 @@
+.titleCategory {
+  width: 296px;
+  height: 92px;
+  background-color: var(--course-1);
+  color: var(--gray-3);
+  font-size: 1.6875rem;
+  font-weight: 400;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

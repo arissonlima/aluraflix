@@ -1,0 +1,110 @@
+:root {
+  --primary: #2A7AE4;
+
+  --course-1: #6BD1FF;
+  --course-2: #9CD33B;
+  --course-3: #69953B;
+  --course-4: #6B5BE2;
+  --course-5: #FFBA05;
+  --course-6: #FF8C2A;
+  --course-7: #DC6EBE;
+  --course-8: #9CD33B;
+
+  --black-1: #000000;
+  --black-2: #00000060;
+  --black-3: #00000050;
+  --black-4: #53585D;
+  --black-5: #9E9E9E;
+
+  --white: #FFFFFF;
+
+  --gray-1: #C2C2C2;
+  --gray-2: #E5E5E5;
+  --gray-3: #F5F5F5;
+
+  --error-1: #C62828;
+  --error-1: #E53935;
+  --error-1: #FCE7E7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--black-1);
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/* TIPOGRAPHY */
+
+.title-big {
+  font-size: 3.75rem;
+  font-weight: 400;
+}
+
+.title-medium {
+  font-size: 2.875rem;
+  font-weight: 400;
+}
+
+.title-small {
+  font-size: 2.1875rem;
+  font-weight: 400;
+}
+
+.body-big {
+  font-size: 1.6875rem;
+  font-weight: 300;
+}
+
+.body-medium {
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.body-small {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.body-smaller {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+/* FORM */
+
+input,
+textarea {
+  width: 100%;
+  height: 50px;
+  background-color: var(--black-4);
+  color: var(--gray-2);
+  font-size: 0.75rem;
+}
+
+textarea {
+  height: 150px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 40px;
+}
